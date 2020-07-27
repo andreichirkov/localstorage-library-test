@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 500px;
+    margin: 40px auto 0 auto;
+    border: 1px solid rgba(0,0,0, .2);
+    padding: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 20px;
+}
+.new-book {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.del {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    background-color: red;
+}
+
